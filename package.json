@@ -1,8 +1,7 @@
 {
   "name": "recipe-app",
   "version": "1.0.0",
-  "main": "node_modules/expo/AppEntry.js",
-  "homepage": "https://brothstein.github.io/recipeapp/",
+  "homepage": "https://brothstein.github.io/recipeapp",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
