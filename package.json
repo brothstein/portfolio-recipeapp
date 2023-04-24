@@ -2,6 +2,7 @@
   "name": "recipe-app",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
+  "homepage": "https://brothstein.github.io/recipeapp/",
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
@@ -35,7 +36,8 @@
     "web-vitals": "^3.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.20.0"
+    "@babel/core": "^7.20.0",
+    "gh-pages": "^5.0.0"
   },
   "private": true
 }
