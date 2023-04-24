@@ -4,13 +4,12 @@
   "main": "node_modules/expo/AppEntry.js",
   "homepage": "https://brothstein.github.io/recipeapp/",
   "scripts": {
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
-    "start": "expo start",
-    "build": "expo build",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@ant-design/react-native": "^5.0.4",
